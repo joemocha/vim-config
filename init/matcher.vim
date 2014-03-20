@@ -4,6 +4,8 @@ if filereadable("/usr/local/bin/matcher")
 
   let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files . -co --exclude-standard']
 
+  let g:ctrlp_dotfiles = 1
+
   let g:ctrlp_match_func = { 'match': 'GoodMatch' }
 
   function! GoodMatch(items, str, limit, mmode, ispath, crfile, regex)

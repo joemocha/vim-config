@@ -1,5 +1,5 @@
 set background=dark
-silent! colorscheme solarized
+silent! colorscheme Tomorrow-Night
 
 if exists("colors_name") && colors_name == 'solarized'
   if has('gui_macvim')
